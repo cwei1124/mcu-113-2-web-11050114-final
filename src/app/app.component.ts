@@ -15,4 +15,6 @@ export class AppComponent {
   company = '博碩文化';
 
   photoUrl = 'https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img';
+
+  price = 1580;
 }
