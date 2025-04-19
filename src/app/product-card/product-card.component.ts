@@ -10,4 +10,6 @@ export class ProductCardComponent {
   productName = 'A 產品';
   author = '作者A、作者B、作者C';
   company = '博碩文化';
+
+  photoUrl = 'https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img';
 }
