@@ -1,5 +1,5 @@
 import { CurrencyPipe } from '@angular/common';
-import { Component, HostBinding, input, numberAttribute } from '@angular/core';
+import { Component, HostBinding, input, numberAttribute, output } from '@angular/core';
 
 @Component({
   selector: 'app-product-card',
@@ -19,6 +19,8 @@ export class ProductCardComponent {
   readonly photoUrl = input<string>();
 
   readonly price = input<number, string | number>(0, { transform: numberAttribute });
+
+  readonly view = output<void>();
 
   @HostBinding('class')
   class = 'app-product-card';
