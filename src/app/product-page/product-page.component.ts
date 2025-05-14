@@ -1,4 +1,3 @@
-import { SearchComponent } from './../search/search.component';
 import { Component, computed, inject, signal } from '@angular/core';
 import { ProductCardListComponent } from '../product-card-list/product-card-list.component';
 import { Product } from '../models/product';
@@ -9,7 +8,7 @@ import { rxResource, toSignal } from '@angular/core/rxjs-interop';
 
 @Component({
   selector: 'app-product-page',
-  imports: [SearchComponent, PaginationComponent, ProductCardListComponent],
+  imports: [PaginationComponent, ProductCardListComponent],
   templateUrl: './product-page.component.html',
   styleUrl: './product-page.component.scss',
 })
