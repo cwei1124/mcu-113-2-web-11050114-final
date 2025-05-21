@@ -10,7 +10,8 @@
       ],
       "company": "博碩文化",
       "photoUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
-      "price": 1580
+      "price": 1580,
+      "isShow": true
     },
     {
       "id": "2",
@@ -22,7 +23,8 @@
       ],
       "company": "博碩文化",
       "photoUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
-      "price": 1580
+      "price": 1580,
+      "isShow": true
     },
     {
       "id": "3",
@@ -34,7 +36,8 @@
       ],
       "company": "博碩文化",
       "photoUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
-      "price": 1580
+      "price": 1580,
+      "isShow": true
     },
     {
       "id": "4",
@@ -46,7 +49,8 @@
       ],
       "company": "博碩文化",
       "photoUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
-      "price": 1580
+      "price": 1580,
+      "isShow": true
     },
     {
       "id": "5",
@@ -58,7 +62,8 @@
       ],
       "company": "博碩文化",
       "photoUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
-      "price": 1580
+      "price": 1580,
+      "isShow": true
     },
     {
       "id": "6",
@@ -70,7 +75,8 @@
       ],
       "company": "博碩文化",
       "photoUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
-      "price": 1580
+      "price": 1580,
+      "isShow": true
     },
     {
       "id": "7",
@@ -82,7 +88,8 @@
       ],
       "company": "博碩文化",
       "photoUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
-      "price": 1580
+      "price": 1580,
+      "isShow": true
     },
     {
       "id": "8",
@@ -94,7 +101,8 @@
       ],
       "company": "博碩文化",
       "photoUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
-      "price": 1580
+      "price": 1580,
+      "isShow": false
     }
   ]
 }
