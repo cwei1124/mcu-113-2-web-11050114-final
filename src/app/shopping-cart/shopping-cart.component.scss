@@ -35,6 +35,11 @@ div.container {
       font-size: 20px;
       gap: 10px;
 
+      .error-message {
+        color: #ba1a1a;
+        font-size: 16px;
+      }
+
       > label {
         flex-basis: 150px;
         text-align: center;
@@ -74,5 +79,9 @@ div.container {
     cursor: pointer;
     color: #005cbb;
     border: 1px solid #005cbb;
+
+    &:disabled {
+      cursor: not-allowed;
+    }
   }
 }
