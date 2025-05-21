@@ -16,4 +16,6 @@ export class Product {
   photoUrl!: string;
 
   isShow!: boolean;
+
+  discount!: boolean;
 }

@@ -1,8 +1,7 @@
 <img [src]="photoUrl()" />
 
 <div class="content">
-  <!-- <strong>{{ id() }}. {{ productName() }}</strong> -->
-  <strong>{{ productName() }}</strong>
+  <strong [class.discount]="discount()" [class.not-discount]="!discount()">{{ productName() }}</strong>
 </div>
 
 <div>
