@@ -1,11 +1,11 @@
-import { CurrencyPipe, NgIf } from '@angular/common';
+import { CurrencyPipe } from '@angular/common';
 import { Component, inject, input, model } from '@angular/core';
 import { Router } from '@angular/router';
 import { Product } from '../models/product';
 
 @Component({
   selector: 'app-product-detail-page',
-  imports: [CurrencyPipe, NgIf],
+  imports: [CurrencyPipe],
   templateUrl: './product-detail-page.component.html',
   styleUrl: './product-detail-page.component.scss',
 })

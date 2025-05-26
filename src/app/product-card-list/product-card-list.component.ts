@@ -1,12 +1,11 @@
-import { Component, input, Input, output } from '@angular/core';
+import { Component, input, output } from '@angular/core';
 import { ProductCardComponent } from '../product-card/product-card.component';
 import { Product } from '../models/product';
 import { PaginationComponent } from '../pagination/pagination.component';
-import { NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-product-card-list',
-  imports: [PaginationComponent, ProductCardComponent, NgIf],
+  imports: [PaginationComponent, ProductCardComponent],
   templateUrl: './product-card-list.component.html',
   styleUrl: './product-card-list.component.scss',
 })
