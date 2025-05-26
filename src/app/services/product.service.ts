@@ -96,10 +96,11 @@ export class ProductService {
     );
   }
 
-  getList(name: string | undefined, index: number, size: number): Observable<{ data: Product[]; count: number }> {
+  getList(name: string | undefined, index: number, size: number, isShow?: boolean): Observable<{ data: Product[]; count: number }> {
     return of(this._data).pipe(
       mergeMap((data) => data),
       filter((item) => (name ? item.name === name : true)),
+      filter((item) => (isShow !== undefined ? item.isShow === isShow : true)),
       toArray(),
       map((data) => {
         const startIndex = (index - 1) * size;
