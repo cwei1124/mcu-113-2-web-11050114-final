@@ -26,6 +26,8 @@ export class ProductCardComponent {
 
   readonly discount = model.required<boolean>();
 
+  readonly addToCart = output<void>();
+
   @HostBinding('class')
   class = 'app-product-card';
 }
