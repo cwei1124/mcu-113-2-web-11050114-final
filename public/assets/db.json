@@ -112,5 +112,72 @@
       "isShow": false,
       "discount": false
     }
+  ],
+  "orders": [
+    {
+      "id": "dcb2",
+      "name": "11",
+      "address": "22",
+      "phone": "33",
+      "details": [
+        {
+          "id": 1,
+          "product": {
+            "id": "6",
+            "name": "F 產品",
+            "authors": [
+              "作者 A",
+              "作者 B",
+              "作者 C"
+            ],
+            "company": "博碩文化",
+            "photoUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+            "price": 1580,
+            "isShow": true,
+            "discount": false
+          },
+          "count": 1,
+          "price": 1580
+        },
+        {
+          "id": 2,
+          "product": {
+            "id": "5",
+            "name": "E 產品",
+            "authors": [
+              "作者 A",
+              "作者 B",
+              "作者 C"
+            ],
+            "company": "博碩文化",
+            "photoUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+            "price": 1580,
+            "isShow": true,
+            "discount": false
+          },
+          "count": 2,
+          "price": 3160
+        },
+        {
+          "id": 3,
+          "product": {
+            "id": "4",
+            "name": "D 產品",
+            "authors": [
+              "作者 A",
+              "作者 B",
+              "作者 C"
+            ],
+            "company": "博碩文化",
+            "photoUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+            "price": 1580,
+            "isShow": true,
+            "discount": false
+          },
+          "count": 1,
+          "price": 1580
+        }
+      ]
+    }
   ]
 }
