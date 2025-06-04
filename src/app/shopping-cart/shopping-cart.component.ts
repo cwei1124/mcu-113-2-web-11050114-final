@@ -64,8 +64,6 @@ export class ShoppingCartComponent implements OnInit {
   ngOnInit(): void {
     this.setOrderDetail();
     this.setupTotalPriceCalculation();
-
-    this.details.valueChanges.subscribe((value) => (this.shoppingCartService.data = value as ShoppingItem[]));
   }
 
   setOrderDetail() {
@@ -93,9 +91,6 @@ export class ShoppingCartComponent implements OnInit {
   setupTotalPriceCalculation(): void {
     this.details.valueChanges.pipe(takeUntilDestroyed(this.destroyRef)).subscribe((value) => {
       this.totalPrice = value.reduce((sum, { price }) => {
-        return sum + (price ?? 0);
-      }, 0);
-      this.totalPrice = this.details.getRawValue().reduce((sum, { price }) => {
         return sum + (price ?? 0);
       }, 0);
     });
