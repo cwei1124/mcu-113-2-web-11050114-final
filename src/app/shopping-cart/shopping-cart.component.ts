@@ -6,7 +6,6 @@ import { ShoppingCartService } from '../services/shopping-cart.service';
 import { Product } from '../models/product';
 import { filter, map } from 'rxjs';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
-import { ShoppingItem } from '../models/shopping-item';
 import { Router } from '@angular/router';
 import { OrderService } from '../services/order.service';
 import { Order } from '../models/order';
