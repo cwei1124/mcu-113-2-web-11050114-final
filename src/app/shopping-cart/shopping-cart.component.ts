@@ -10,6 +10,7 @@ import { Router } from '@angular/router';
 import { OrderService } from '../services/order.service';
 import { Order } from '../models/order';
 import { OrderDetail } from '../models/order-detail';
+import { ShoppingItem } from '../models/shopping-item';
 
 @Component({
   selector: 'app-shopping-cart',
@@ -63,6 +64,8 @@ export class ShoppingCartComponent implements OnInit {
   ngOnInit(): void {
     this.setOrderDetail();
     this.setupTotalPriceCalculation();
+
+    this.details.valueChanges.subscribe((value) => (this.shoppingCartService.data = value as ShoppingItem[]));
   }
 
   setOrderDetail() {
