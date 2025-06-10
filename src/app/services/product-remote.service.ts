@@ -17,12 +17,12 @@ export class ProductRemoteService extends ProductService {
     return this.httpClient.get<Product>(url);
   }
 
-  override getList(name: string | undefined, index: number, size: number, isShow: boolean): Observable<{ data: Product[]; count: number }> {
+  override getList(name: string | undefined, index: number, size: number, isShow: true): Observable<{ data: Product[]; count: number }> {
     let query: {
       _page: number;
       _per_page: number;
       name?: string;
-      isShow: boolean;
+      isShow: true;
     } = { _page: index, _per_page: size, isShow: isShow };
 
     if (name) query = { ...query, name };
